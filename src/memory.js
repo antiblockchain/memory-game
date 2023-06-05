@@ -9,6 +9,11 @@ const images = [
   { src: "./img/img4.jpg" },
   { src: "./img/img5.jpg" },
   { src: "./img/img6.jpg" },
+  { src: "./img/img7.jpg" },
+  { src: "./img/img8.jpg" },
+  { src: "./img/img9.jpg" },
+  { src: "./img/img10.jpg" },
+  { src: "./img/img11.jpg" },
 ];
 
 function Memory() {
