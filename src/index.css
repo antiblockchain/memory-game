@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 0, 0);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem;
+}
+button {
+  border: none;
+  border-radius: 5rem;
+  font-weight: 900;
+  padding: 1rem;
+  background-color: rgb(170, 11, 29);
+  color: white;
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+}
+.img-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+h1, h3 {
+  color: white;
 }
